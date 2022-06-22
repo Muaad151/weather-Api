@@ -1,0 +1,49 @@
+.body {
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    backdrop-filter: blur(2px);
+}
+
+.container {
+    max-width: 760px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.weather-report {
+    display: none;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.parameter {
+    justify-items: flex-start;
+    flex-basis: 0.75;
+    flex-grow: 0;
+}
+
+.img {
+    justify-self: center;
+    align-self: center;
+    margin-right: 2rem;
+}
+
+.alert {
+    /* max-width: 500px; */
+    margin: auto auto;
+    text-align: center;
+    color: #fff;
+    display: none;
+}
+
+.showItem {
+    display: block;
+}
+
+.show-Item {
+    display: flex;
+}
